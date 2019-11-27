@@ -1,0 +1,207 @@
+body{
+	margin: 0px;
+
+}
+.navbrand{
+	width: 50px;
+	margin-left: 5px;
+}
+.navgroup{
+	list-style-type: none;
+	padding: 0px;
+	margin-right: 20px;
+
+}
+.nav-item:hover{
+	color: grey;
+}
+.btn{
+	background: white;
+	height: 40px;
+	width: 150px;
+	margin: auto 0px auto auto;
+	border: solid  1px #7399c6;
+	letter-spacing: 3px;
+	font-size: 10px;
+	margin-left: auto;
+	
+}
+.nav-btn{
+	color: #7399c6;
+}
+.nav-btn:hover{
+	background: #7399c6;
+	color: white;
+}
+#first-section{
+	background: url("../img/hero-image.jpg"); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 100%;
+	margin-top: 50px;
+}
+.first-section-inner{
+	text-align: center;
+	padding: 0px;
+	color: black;
+	margin-top: 50px;
+	/*font-size: 1.7em;*/
+	height: 300px;
+}
+.make-things-possible{
+	font-size: 1.5rem;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+#second-section{
+	padding: 10px;
+	text-align: center;
+}
+.second-section-inner1, .second-section-inner2{
+	box-sizing: border-box;
+	height: 250px;
+	text-align: center;
+	color: white;
+	padding: 50px;	
+	line-height: 2em;
+}
+.second-section-inner1{
+	background: #131C40;
+}
+.second-section-inner2{
+	background: #060B1E;
+}
+#second-section .btn{
+	background: transparent;
+	width: 150px;
+	border: solid 1px #22A2FF;
+	font-size: 0.7em;
+	color: #22A2FF;
+}
+#second-section .btn:hover{
+	background: #22A2FF;
+	color: white;
+}
+#footer{
+	text-align: center;
+
+}
+#footer:hover{
+	color: grey;
+}
+.d-none{
+	display: none;
+}
+@media (min-width: 500px){
+	nav{
+		display: flex;
+		font-size: 1.2em;
+		padding: 5px;
+		padding-right: 10px;
+        box-shadow: 0px 3px 5px 0px grey;
+
+	}
+	.navgroup{
+		display: flex;
+		padding: 0px;
+	}
+	.nav-item{
+		margin-right: 5px;
+	}
+	.d-none{
+		display: unset;
+		margin-right: 20px;
+		margin-left: 15px;
+	}
+	#first-section{
+		width: 100%;
+		height: 450px;
+		margin-top: 50px;
+		background-size: cover;
+	}
+	.first-section-inner{
+		margin-top: -350px;
+		color: #fff;
+	}
+	.make-things-possible{
+		width: 50%;
+		margin-right: auto;
+		margin-left: auto;
+        font-size: 3.5rem;
+
+
+	}
+	.first-section-inner p{
+		width: 45%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#second-section{
+		display: flex;
+		margin-top: -20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
